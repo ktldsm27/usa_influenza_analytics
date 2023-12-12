@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Influenza-like illness | Big Data Analytics</title>
+    <meta name="description" content="Influenza-like illness | Analytics">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+    <link rel="stylesheet" href="css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-............" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+
+<body>
+    <div id="right-panel" class="right-panel">
+
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1><i class="fas fa-virus fa-2xl" style="color: rgba(102, 100, 100, 0.794);"></i>   Influenza-like illness in United States</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li><a href="#" class="btn btn-success btn-sm" id="loadData"><i class="fas fa-upload"></i> Load Data</a></li>
+                        </ol>
+                        <input type="file" id="fileInput" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content mt-3" style="display: none;">
+            <div class="animated fadeIn">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-3" ><i class="fas fa-info-circle" style="color: rgba(0, 0, 255, 0.815);"></i> Information Map </h4>
+                                <div id="vmap" style="width: 600px; height: 305px;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-3">Data Cleansing Summary</h4>
+                                <p id="totalRows"></p>
+                                <p id="missingValueRows"></p>
+                                <p id="removedDueToDuplicates"></p>
+                                <p id="dataNotRemoved"></p>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-3">Average Regional Patient Visit vs Total ILI Cases per Region</h4>
+                                <canvas id="sales-chart"></canvas>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-3" style="margin-bottom: 10px;">Predictions(Total ILI Cases Based On Total Patient Visit)</h4>
+                                <input type="number" id="predict" placeholder="Input On Site Report" class="small-input">
+                                <button class="btn btn-success btn-sm" onclick="makePrediction()">Make Prediction</button>
+                                <div id="loading" style="display:none;">Loading <i class="fa-solid fa-spinner fa-spin fa-sm" style="color: black;"></i></div>
+                                <div id="predictions"></div>
+                                <div id="metrics"></div>
+                            </div>
+                                                       
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                
+                                <h4 class="mb-3">Average ILI Cases per Region</h4>
+                                <canvas id="singelBarChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-3">Average Sites Reporting per Region</h4>
+                                <canvas id="barChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="placeholder-content" style="text-align: center; padding: 50px;">
+            <h1 style="color: #0606069b; font-size: 4em; margin-bottom: 60px;">
+                <i class="fas fa-exclamation-triangle" style="color: #ffa600c4;"></i>
+                No data loaded yet!
+            </h1>
+            <h2>Influenza-like Illness</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oXzwtGFyBik?autoplay=1" frameborder="0" allowfullscreen style="margin-bottom: 20px;"></iframe>
+            <img src="images/influenza.png" alt="influeza virus" style="margin-top: 20px;">
+        </div>
+        
+                   
+    </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="js/load.js"></script>
+      <script type="text/javascript" src="js/jquery.vmap.js"></script>
+      <script src="js/Chart.bundle.min.js"></script>
+      <script src="js/predict.js"></script>
+      <script src="js/chartjs-init.js"></script>   
+      <script src="js/info.js"></script>
+</body>
+</html>
