@@ -8,7 +8,6 @@ description dria wala koy maisip
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Credits](#credits)
 - [Documentation](#documentation)
 - [Testing](#testing)
@@ -23,8 +22,6 @@ info here
 ## Usage
 info here
 ## Contributing
-info here
-## License
 info here
 ## Credits
 info here
