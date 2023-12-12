@@ -19,12 +19,22 @@ description dria wala koy maisip
 ## Installation
 info here
 ## Requirements
+info here
 ## Usage
+info here
 ## Contributing
+info here
 ## License
+info here
 ## Credits
+info here
 ## Documentation
+info here
 ## Testing
+info here
 ## FAQ
+info here
 ## Changelog
+info here
 ## Contact Information
+info here
