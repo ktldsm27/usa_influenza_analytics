@@ -27,5 +27,3 @@ A short description of your project.
 ## FAQ
 ## Changelog
 ## Contact Information
-## Sample Image
-![Alt text](path/to/your/RG5.jpg)
