@@ -1,6 +1,6 @@
 # Influenza-like illness | Big Data Analytics
 
-A short description of your project.
+description dria wala koy maisip
 
 ## Table of Contents
 
