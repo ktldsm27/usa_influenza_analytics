@@ -20,11 +20,11 @@ To install and run the Influenza-like Illness Analytics System locally, follow t
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/jessieconnralphsam/usa_influenza_analytics
+- git clone https://github.com/jessieconnralphsam/usa_influenza_analytics
 
 2. Navigate to the project directory:
 
-cd usa_influenza_analytics
+- cd usa_influenza_analytics
 
 3. Open the project in your preferred code editor.
 
@@ -38,19 +38,19 @@ Ensure you have the following prerequisites installed:
 ## Usage
 Loading Data:
 
-Click on the "Load Data" button to load specific data stored in a spreadsheet.
+- Click on the "Load Data" button to load specific data stored in a spreadsheet.
 
 Information Map:
 
-Hover the map to view the region and state names. Clicking on a region will display specific data for that region.
+- Hover the map to view the region and state names. Clicking on a region will display specific data for that region.
 
 Data Cleansing Summary:
 
-View the data cleansing summary, including original data count, rows with missing values, data removed due to duplication, and clean data count.
+ - View the data cleansing summary, including original data count, rows with missing values, data removed due to duplication, and clean data count.
 
 Graphs and Predictions:
 
-Explore various graphs, such as "Average Regional Patient Visit vs Total ILI Cases per Region," and make predictions using the "Predictions" section.
+- Explore various graphs, such as "Average Regional Patient Visit vs Total ILI Cases per Region," and make predictions using the "Predictions" section.
 
 ## Contributing
 If you'd like to contribute to the project, please follow these steps:
