@@ -33,13 +33,38 @@ cd usa_influenza_analytics
 4. Run the system by opening your web browser's `index.html` file.
 
 ## Requirements
-info here
+Ensure you have the following prerequisites installed:
+
+Web browser (Microsoft Edge, Google Chrome, Mozilla Firefox, etc.)
+Big Data of Influenza-like Illness in USA
 ## Usage
-info here
+Loading Data:
+
+Click on the "Load Data" button to load specific data stored in a spreadsheet.
+
+Information Map:
+
+Hover the map to view the region and state names. Clicking on a region will display specific data for that region.
+
+Data Cleansing Summary:
+
+View the data cleansing summary, including original data count, rows with missing values, data removed due to duplication, and clean data count.
+
+Graphs and Predictions:
+
+Explore various graphs, such as "Average Regional Patient Visit vs Total ILI Cases per Region," and make predictions using the "Predictions" section.
+
 ## Contributing
-info here
+If you'd like to contribute to the project, please follow these steps:
+
+a. Fork the repository.
+
+b. Create a new branch for your feature or bug fix.
+
+c. Make your changes and submit a pull request.
+
 ## Credits
-info here
+This system relies on data published by the Centers for Disease Control and Prevention (CDC).
 ## Documentation
 info here
 ## Testing
