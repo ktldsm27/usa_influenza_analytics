@@ -10,7 +10,6 @@ link: https://jessieconnralphsam.github.io/usa_influenza_analytics/
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [FAQ](#faq)
-- [Contact Information](#contact-information)
 
 ## Installation
 To install and run the Influenza-like Illness Analytics System locally, follow these steps:
