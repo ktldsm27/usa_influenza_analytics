@@ -18,7 +18,20 @@ link: https://jessieconnralphsam.github.io/usa_influenza_analytics/
 - [Contact Information](#contact-information)
 
 ## Installation
-info here
+To install and run the Influenza-like Illness Analytics System locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+git clone https://github.com/jessieconnralphsam/usa_influenza_analytics
+
+2. Navigate to the project directory:
+
+cd usa_influenza_analytics
+
+3. Open the project in your preferred code editor.
+
+4. Run the system by opening your web browser's `index.html` file.
+
 ## Requirements
 info here
 ## Usage
