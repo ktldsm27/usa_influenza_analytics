@@ -61,18 +61,18 @@ c. Make your changes and submit a pull request.
 ## Credits
 This system relies on data published by the Centers for Disease Control and Prevention (CDC).
 ## FAQ
-Q: How often is the data updated in the system?
-A: The data is typically updated based on the Centers for Disease Control and Prevention (CDC) release schedule. Check the system regularly for the latest available information.
-Q: Is it possible to use my own dataset with the system?
-A: The Influenza-like Illness Analytics System is primarily designed to analyze and visualize data related to Influenza-like Illness (ILI). While the system is specialized for ILI analytics, you may still have the option to explore using your dataset. However, using datasets related explicitly to influenza-like illness is recommended for optimal results and accurate and meaningful insights. Please ensure that your dataset aligns with the intended purpose of the system.
+Q: How often is the data updated in the system?<br>
+A: The data is typically updated based on the Centers for Disease Control and Prevention (CDC) release schedule. Check the system regularly for the latest available information. <br>
+Q: Is it possible to use my own dataset with the system?<br>
+A: The Influenza-like Illness Analytics System is primarily designed to analyze and visualize data related to Influenza-like Illness (ILI). While the system is specialized for ILI analytics, you may still have the option to explore using your dataset. However, using datasets related explicitly to influenza-like illness is recommended for optimal results and accurate and meaningful insights. Please ensure that your dataset aligns with the intended purpose of the system. <br>
 
-Q: How accurate are the predictions in the "Predictions" section?
-A: The accuracy of predictions depends on the quality and relevance of the input data. Make sure to input accurate and relevant information for more reliable predictions.
-Q: I found a bug. How can I report it?
-A: Please report any bugs or issues by creating a new issue in the GitHub repository. Be sure to provide detailed information about the problem and steps to reproduce it.
-Q: Is there a user guide available for the system?
+Q: How accurate are the predictions in the "Predictions" section?<br>
+A: The accuracy of predictions depends on the quality and relevance of the input data. Make sure to input accurate and relevant information for more reliable predictions.<br>
+Q: I found a bug. How can I report it?<br>
+A: Please report any bugs or issues by creating a new issue in the GitHub repository. Be sure to provide detailed information about the problem and steps to reproduce it.<br>
+Q: Is there a user guide available for the system?<br>
 A: Yes, you can find the documentation section in the README file for guidance on installation, usage, and contributing to the project.
-Q: Can I contribute to the development of the system?
-A: Absolutely! We welcome contributions. Follow the steps outlined in the "Contributing" section of the README to fork the repository, create a new branch, make your changes, and submit a pull request.
+Q: Can I contribute to the development of the system?<br>
+A: Absolutely! We welcome contributions. Follow the steps outlined in the "Contributing" section of the README to fork the repository, create a new branch, make your changes, and submit a pull request.<br>
 Feel free to customize these questions and answers based on the specific features and aspects of your Influenza-like Illness Analytics System.
 
