@@ -1,15 +1,5 @@
 # Influenza-like illness | Big Data Analytics
 
-Influenza-like illness (ILI) surveillance in the United States is a critical component of public health monitoring and response, and Big Data Analytics plays a pivotal role in enhancing the understanding of ILI patterns. ILI refers to a set of symptoms, such as fever, cough, and body aches, which are commonly associated with influenza and other respiratory infections.
-
-Big Data Analytics leverages vast and diverse datasets, including electronic health records, social media, internet search trends, and traditional surveillance systems, to provide a comprehensive and real-time analysis of ILI dynamics. This approach enables public health officials to detect outbreaks early, identify emerging trends, and allocate resources efficiently.
-
-The integration of Big Data Analytics in ILI surveillance allows for a more granular examination of geographical and demographic variations in illness patterns. By harnessing the power of large datasets, researchers can identify hotspots, understand the impact of environmental factors, and assess the effectiveness of interventions.
-
-Moreover, predictive modeling through Big Data Analytics aids in forecasting ILI trends, assisting healthcare providers, and public health agencies in preparing for and mitigating the impact of seasonal outbreaks. The rapid analysis of vast datasets facilitates evidence-based decision-making, enhancing the overall responsiveness and resilience of the public health system.
-
-In summary, the fusion of Influenza-like illness surveillance in the USA with Big Data Analytics represents a cutting-edge approach to public health monitoring, providing valuable insights, timely interventions, and improved preparedness in the face of respiratory infections.
-
 link: https://jessieconnralphsam.github.io/usa_influenza_analytics/
 
 ## Table of Contents
