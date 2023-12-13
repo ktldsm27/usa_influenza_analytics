@@ -33,8 +33,8 @@ cd usa_influenza_analytics
 ## Requirements
 Ensure you have the following prerequisites installed:
 
-Web browser (Microsoft Edge, Google Chrome, Mozilla Firefox, etc.)
-Big Data of Influenza-like Illness in USA
+- Web browser (Microsoft Edge, Google Chrome, Mozilla Firefox, etc.)
+- Big Data of Influenza-like Illness in USA
 ## Usage
 Loading Data:
 
